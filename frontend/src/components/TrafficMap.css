@@ -1,0 +1,22 @@
+.traffic-map-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.traffic-map-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.traffic-map-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.traffic-map {
+    height: 600px; /* Adjust the height as needed */
+}

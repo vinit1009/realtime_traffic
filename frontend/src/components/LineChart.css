@@ -1,0 +1,38 @@
+.line-chart-container {
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.line-chart-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.line-chart-container p {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.chart-area {
+    height: 400px; /* Adjust height of chart area */
+    padding: 20px;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .line-chart-container {
+        margin: 20px;
+    }
+}
